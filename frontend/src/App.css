@@ -1,0 +1,44 @@
+.App {
+  font-family: sans-serif; /* Set a base font family */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.search-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.search-box {
+  flex: 1; /* Allow the input to grow */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #3fb545; /* Blue color */
+  color: white;
+}
+
+.search-button:disabled {
+  background-color: #ccc; /* Gray out disabled button */
+  cursor: default;
+}
+
+ul[data-testid="stock-data"] {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
